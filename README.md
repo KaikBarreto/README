@@ -1,17 +1,17 @@
-## <font color="cyan">**_Olá! Eu sou Kaik Barreto, estudante de programação e desenvolvimento web_**</font>
+## <font color="cyan">**_Hello! I'm Kaik, a frontend development student._**</font>
 
 <div>
   <a style="display: flex; flex-grow: 1;" href="https://github.com/kaikbarreto">
 
   <img height="180px" width="58%"  src="https://github-readme-stats.vercel.app/api?username=kaikbarreto&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img style="min-height: 180px;" width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikbarreto&layout=compact&langs_count=7&theme=radical"/>
+  <img width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikbarreto&layout=compact&langs_count=7&theme=radical"/>
 </div>
 
 <div style="display: inline_block"><br>
-  <img align="center" alt="Kaik-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Kaik-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Kaik-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Kaik-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  <img align="center" alt="Kaik-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" target="_blank">
+  <img align="center" alt="Kaik-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" target="_blank">
+  <img align="center" alt="Kaik-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" target="_blank">
+  <img align="center" alt="Kaik-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" target="_blank">
 </div>
 
 
