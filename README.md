@@ -25,7 +25,7 @@
     <a href="https://instagram.com/barreto.kaik" rel="external" target="_blank">
         <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" rel="external" target="_blank">
     </a>
-    <a href="https://discord.gg/" rel="external" target="_blank">
+    <a href="https://discord.com/channels/@me/964627232574279780/" rel="external" target="_blank">
         <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" rel="external" target="_blank">
     </a> 
     <a href = "mailto:kaikchaides123@gmail.com">
