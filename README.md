@@ -2,9 +2,9 @@
 
 <div align="center">
   <a href="https://github.com/kaikbarreto">
-  <img height="160em" src="https://github-readme-stats-nine-navy.vercel.app/api?username=kaikbarreto&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikbarreto&layout=compact&langs_count=7&theme=radical"/>
-  <img height="160em" width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=kaikbarreto&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="Kaik Barreto"/>
+  <img height="160em" width="58%" src="https://github-readme-stats-nine-navy.vercel.app/api?username=kaikbarreto&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
+  <img height="160em" width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikbarreto&layout=compact&langs_count=7&theme=radical"/>
+  <img height="160em" width="80%" src="https://github-readme-streak-stats.herokuapp.com/?user=kaikbarreto&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="Kaik Barreto"/>
 </div>
 
 ## **Technologies:**
