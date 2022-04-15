@@ -1,5 +1,6 @@
 ## <font color="cyan">**_Olá! Eu sou Kaik Barreto, estudante de programação e desenvolvimento web_**</font>
-<div  align="center">
+
+<div>
   <a href="https://github.com/kaikbarreto">
 
   <img height="180px" width="58%"  src="https://github-readme-stats.vercel.app/api?username=kaikbarreto&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
