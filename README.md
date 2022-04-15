@@ -1,12 +1,13 @@
 ## **_Hello! I'm Kaik, a frontend development student._**
 
-<div align="center">
+<div align="start">
   <a href="https://github.com/kaikbarreto">
-  <img height="160em" width="52%" style="margin-right: 0" src="https://github-readme-stats-nine-navy.vercel.app/api?username=kaikbarreto&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="160em" width="45%" style="margin-left: 0" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikbarreto&layout=compact&langs_count=7&theme=radical"/>
-  <img height="160em" width="80%" src="https://github-readme-streak-stats.herokuapp.com/?user=kaikbarreto&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="Kaik Barreto"/>
-</div>
-
+  <img height="160em" src="https://github-readme-stats-nine-navy.vercel.app/api?username=kaikbarreto&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
+  <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikbarreto&layout=compact&langs_count=7&theme=radical"/>
+  <img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=KaikBarreto&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="KaikBarreto"/>
+    </div>
+  
+  
 ## **Technologies:**
 <div style="display: inline_block"><br>
   <img align="center" alt="Kaik-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
