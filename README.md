@@ -20,7 +20,7 @@
 </div>
 
 
-##
+## **<font color="tomato">Social Media:</font>**
  
 <div> 
     <a href="https://instagram.com/barreto.kaik" rel="external" target="_blank">
