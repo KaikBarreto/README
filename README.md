@@ -4,7 +4,7 @@
   <a style="display: flex; flex-grow: 1;" href="https://github.com/kaikbarreto">
 
   <img height="180px" width="58%"  src="https://github-readme-stats.vercel.app/api?username=kaikbarreto&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="240px" width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikbarreto&layout=compact&langs_count=7&theme=radical"/>
+  <img width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaikbarreto&layout=compact&langs_count=7&theme=radical"/>
 </div>
 
 <div style="display: inline_block"><br>
