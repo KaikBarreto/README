@@ -1,4 +1,4 @@
-## Olá! Eu sou Kaik Barreto, estudante de programação e desenvolvimento web
+## <font color="cyan">**_Olá! Eu sou Kaik Barreto, estudante de programação e desenvolvimento web_**</font>
 <div  align="center">
   <a href="https://github.com/kaikbarreto">
 
