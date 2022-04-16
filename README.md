@@ -1,5 +1,10 @@
 ## **_Hello! I'm Kaik, a frontend development student._**
 
+- 🔭 Looking for become a better programmer everyday!
+- 🌱 Currently studying SASS and Bootstrap. 
+- 📫 Contact me on email: kaikchaides123@gmail.com
+- 🧐 Pronouns: him / his
+
 <div align="center">
   <a href="https://github.com/kaikbarreto">
   <img height="160em" width="60%" src="https://github-readme-stats-nine-navy.vercel.app/api?username=kaikbarreto&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
