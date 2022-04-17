@@ -1,4 +1,4 @@
-## **_Hello! I'm Kaik, a frontend development student._**
+## **_Hello! I'm Kaik, also known as Parallax, a frontend development student._**
 
 - 🔭 Looking for become a better programmer everyday!
 - 🌱 Currently studying SASS and Bootstrap. 
