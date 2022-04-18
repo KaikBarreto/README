@@ -1,7 +1,7 @@
 ## **_Hello! I'm Kaik, also known as Parallax, a frontend development student._**
 
 - 🔭 Looking for become a better programmer everyday!
-- 🌱 Currently studying SASS and Bootstrap. 
+- 🌱 Currently studying: Bootstrap (CSS Framework) 
 - 📫 Contact me on email: kaikchaides123@gmail.com
 - 🧐 Pronouns: him / his
 
