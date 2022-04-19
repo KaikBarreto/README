@@ -14,7 +14,7 @@
   
 ## **Skills:**
   
-  ### **Languages:** 
+  ### **Languages** 
   
   <div style="display: inline_block;">
      <img align="center" alt="Kaik-JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
@@ -23,7 +23,7 @@
     <img align="center" alt="Kaik-PYTHON" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   </div>
   
-  ### **Frameworks and Technologies:**
+  ### **Frameworks and Technologies**
   
   <div style="display: inline_block;">
     
@@ -34,7 +34,7 @@
     
   </div>
   
-  ### **Versioning:** 
+  ### **Versioning** 
   
   <div style="display: inline_block;">
        
