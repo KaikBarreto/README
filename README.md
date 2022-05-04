@@ -1,6 +1,6 @@
 ## **_Hello! I'm Kaik, also known as Parallax, a front-end development student._**
 
-- 🔭 Looking for become a better programmer everyday!
+- 🔭 Lifelong learner :D
 - 🌱 Currently studying: ReactJS (JavaScript Framework) 
 - 📫 Contact me on email: kaikchaides123@gmail.com
 - 🧐 Pronouns: him / his
