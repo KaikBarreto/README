@@ -12,6 +12,8 @@
   <img height="160em" src="https://github-readme-streak-stats.herokuapp.com/?user=kaikbarreto&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="KaikBarreto"/>
 </div>
   
+          
+  
 ## **Skills:**
   
   ### **Languages** 
@@ -29,9 +31,9 @@
   <div style="display: inline_block;">
     
   <img align="center" alt="Kaik-REACT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-<!--   <img align="center" alt="Kaik-NODE" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"> -->
   <img align="center" alt="Kaik-SASS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg">
   <img align="center" alt="Kaik-BOOTSTRAP" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg">
+   <img align="center" alt="Kaik-DJANGO" height="30" width="60" src="https://static.djangoproject.com/img/logos/django-logo-negative.png">
     
   </div>
   
