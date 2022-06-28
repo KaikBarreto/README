@@ -1,7 +1,7 @@
 ## **_Hello! I'm Kaik, also known as Parallax, a front-end development student._**
 
 - 🔭 Lifelong learner :D
-- 🌱 Currently taking the CS50, an introduction to Computer Science course by Harvard University.
+- 🌱 Currently taking the CS50P, an introduction Programming introduction course with Python by Harvard University.
 - 📫 Contact me on email: kaikchaides123@gmail.com
 - 🧐 Pronouns: him / his
 
