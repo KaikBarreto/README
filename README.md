@@ -1,4 +1,4 @@
-## **_Hello! I'm Kaik, also known as Parallax, a front-end development student._**
+## **_Hello! I'm Kaik Barreto, a front-end development student._**
 
 - 🔭 Lifelong learner :D
 - 🌱 Currently taking the CS50P, an introduction Programming introduction course with Python by Harvard University.
