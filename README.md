@@ -1,7 +1,7 @@
 ## **_Hello! I'm Kaik Barreto, a front-end development student._**
 
 - 🔭 Lifelong learner :D
-- 🌱 Currently taking the CS50P, an introduction Programming introduction course with Python by Harvard University.
+- 🌱 Currently getting deeper on ReactJS!
 - 📫 Contact me on email: kaikchaides123@gmail.com
 - 🧐 Pronouns: him / his
 
@@ -38,16 +38,34 @@
     
   </div>
   
-  ### **Versioning and other skills** 
+  ### **Versioning** 
   
   <div style="display: inline_block;">
-       
-  <img align="center" alt="Kaik-GIT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
-  <img align="center" alt="Kaik-GITHUB" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg">
-    
-  <img align="center" alt="Kaik-PHOTOSHOP" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg">
-
+    <img align="center" alt="Kaik-GIT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
+    <img align="center" alt="Kaik-GITHUB" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg">
   </div>
+       
+  ### Graphic Design
+  
+  <div style="display: inline_block;">
+    <img align="center" alt="Kaik-PHOTOSHOP" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg">
+  </div>
+   
+  ### Video Editing
+  
+  <div style="display: inline_block;">
+    <img align="center" alt="Kaik-PREMIERE" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-plain.svg">
+  </div>
+    
+    
+   
+  
+  
+    
+  
+  
+
+  
   
 ## **Social Media:**
  
