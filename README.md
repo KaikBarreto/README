@@ -32,9 +32,8 @@
     
   <img align="center" alt="Kaik-REACT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
   <img align="center" alt="Kaik-SASS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg">
-  <img align="center" alt="Kaik-BOOTSTRAP" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg">
-
-<!--    <img align="center" alt="Kaik-DJANGO" height="30" width="60" src="https://static.djangoproject.com/img/logos/django-logo-negative.png"> -->
+  
+  <img align="center" alt="Kaik-TAILWIND" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
     
   </div>
   
