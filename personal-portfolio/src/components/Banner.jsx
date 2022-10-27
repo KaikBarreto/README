@@ -3,13 +3,16 @@ import { Col, Container, Row } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
 import headerImg from "../assets/img/header-img.svg"
 
+import "animate.css"
+import TrackVisibility from "react-on-screen"
+
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0)
   const [isDeleting, setIsDeleting] = useState(false)
   const toRotate = ["Desenvolvedor da Web", "Designer Gráfico"]
   const [text, setText] = useState("D")
   const [delta, setDelta] = useState(300 - Math.random() * 100)
-  const period = 1000
+  const period = 2000
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -49,20 +52,40 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Seja bem-vindo ao meu Portfólio</span>
-            <h1>
-              {`Olá, me chamo Kaik e sou um `}
-              <span className="wrap">{text}</span>
-            </h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
-              impedit quaerat quasi eveniet vero inventore repudiandae quia, quo
-              voluptas eligendi eaque, libero at recusandae numquam veritatis a
-              sequi iusto tempore?
-            </p>
-            <button onClick={() => console.log("connect")}>
-              Vamos trocar uma ideia! <ArrowRightCircle size={25} />
-            </button>
+            <TrackVisibility>
+              {({ isVisible }) => <div
+                  className={
+                    isVisible ? "animated__animated animate__fadeIn" : ""
+                  }
+                >
+                  <span className="tagline">Seja bem-vindo ao meu Portfólio</span>
+                  <h1>
+                    {`Olá, me chamo Kaik`}
+                    <br />
+                    {`e sou um `}
+                    <br />
+                    <span className="wrap text-gradient">{text}</span>
+                  </h1>
+                  <p>
+                    Sou um <strong>jovem</strong> de 17 anos, nascido no{" "}
+                    <strong>Rio de Janeiro - RJ</strong> e{" "}
+                    <strong>apaixonado</strong> por tecnologia e inovação. Desde
+                    sempre me aventurei em jornadas de aprendizado, e continuo{" "}
+                    <strong>estudando diariamente</strong> para me aperfeiçoar não
+                    somente como profissional, mas como pessoa.
+                  </p>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=+5521970117921&text=Olá,%20Kaik!%20Vim%20pelo%20seu%20portfólio!"
+                    rel="noreferrer"
+                    target="_blank"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <button onClick={() => console.log("connect")}>
+                      Vamos trocar uma ideia! <ArrowRightCircle size={25} />
+                    </button>
+                  </a>
+                </div>}
+            </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt="Imagem do cabeçalho" />

@@ -31,7 +31,7 @@ export const Skills = () => {
       <Container>
         <Row>
           <Col>
-            <div className="skill-bx">
+            <div className="skill-bx wow zoomIn">
               <h2>Habilidades</h2>
               <p>
                 O nosso mundo muda a todo instante e, por conta disso,
@@ -73,7 +73,7 @@ export const Skills = () => {
         </Row>
       </Container>
       <img
-        clasName="background-image-left"
+        className="background-image-left"
         src={colorSharp}
         alt="color sharp"
       />

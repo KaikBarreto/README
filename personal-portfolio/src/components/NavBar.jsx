@@ -91,12 +91,12 @@ export const NavBar = () => {
               >
                 <img src={navIcon1} alt="navicon1" />
               </a>
-              <a href="#home" rel="noreferrer" target="_blank">
+              <a href="https://www.github.com/kaikbarreto" rel="noreferrer" target="_blank">
                 <img src={navIconGithub} alt="navicon2" />
               </a>
             </div>
             <a
-              href="https://www.instagram.com/barreto.kaik/"
+              href="https://api.whatsapp.com/send?phone=+5521970117921&text=Olá,%20Kaik!%20Vim%20pelo%20seu%20portfólio!"
               rel="noreferrer"
               target="_blank"
             >
