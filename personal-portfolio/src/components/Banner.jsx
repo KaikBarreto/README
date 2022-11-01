@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import { Col, Container, Row } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
 import headerImg from "../assets/img/header-img.svg"
+import fotoKaik from "../assets/img/fotoKaik.jpg"
 
 import "animate.css"
 import TrackVisibility from "react-on-screen"
@@ -53,12 +54,16 @@ export const Banner = () => {
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
-              {({ isVisible }) => <div
+              {({ isVisible }) => (
+                <div
                   className={
                     isVisible ? "animated__animated animate__fadeIn" : ""
                   }
                 >
-                  <span className="tagline">Seja bem-vindo ao meu Portfólio</span>
+                  <span className="tagline">
+                    Seja bem-vindo ao meu Portfólio
+                  </span>
+
                   <h1>
                     {`Olá, me chamo Kaik`}
                     <br />
@@ -71,9 +76,11 @@ export const Banner = () => {
                     <strong>Rio de Janeiro - RJ</strong> e{" "}
                     <strong>apaixonado</strong> por tecnologia e inovação. Desde
                     sempre me aventurei em jornadas de aprendizado, e continuo{" "}
-                    <strong>estudando diariamente</strong> para me aperfeiçoar não
-                    somente como profissional, mas como pessoa.
+                    <strong>estudando diariamente</strong> para me aperfeiçoar
+                    não somente como profissional, mas como pessoa.
                   </p>
+                  <img src={fotoKaik} alt="foto Kaik" id="fotoKaik" />
+
                   <a
                     href="https://api.whatsapp.com/send?phone=+5521970117921&text=Olá,%20Kaik!%20Vim%20pelo%20seu%20portfólio!"
                     rel="noreferrer"
@@ -84,7 +91,8 @@ export const Banner = () => {
                       Vamos trocar uma ideia! <ArrowRightCircle size={25} />
                     </button>
                   </a>
-                </div>}
+                </div>
+              )}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>

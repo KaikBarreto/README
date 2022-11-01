@@ -118,9 +118,9 @@ p.danger {
 }
 
 .text-gradient {
-  background: linear-gradient(120deg, #aa367c -5.91%, #492fbd 111.58%);
-  background-clip: text;
-  color: transparent;
+  background: linear-gradient(120deg, #cc60a1 -5.91%, #7761d8 111.58%) !important;
+  background-clip: text !important;
+  color: transparent !important;
 }
 
 @media (max-width: 800px) {
@@ -133,6 +133,20 @@ p.danger {
   #home p {
     font-size: 16px;
   }
+}
+
+@media (max-width: 425px) {
+  #pills-tab a {
+    font-size: 12px;
+  }
+}
+
+#fotoKaik {
+  display: inline;
+  margin-left: 15px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
 }
 
 #contactButton {
@@ -376,7 +390,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 160px 0 100px 0;
   background-image: url("./assets/img/banner-bg.png");
   background-position: top center;
   background-size: cover;
@@ -522,11 +536,42 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+.services {
+  padding: 80px 0;
+  position: relative;
+}
+
+.services h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.serviceParagraph {
+  text-align: center;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+}
+
+.serviceParagraph:hover {
+  background: linear-gradient(120deg, #c64d96 -5.91%, #654cd3 111.58%) !important;
+  background-clip: text !important;
+  color: transparent !important;
+  -webkit-box-shadow: 1px 1px 10px #fff;
+          box-shadow: 1px 1px 10px #fff;
+  border-radius: 25px;
+}
+
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: #040404;
 }
 
 .project h2 {
@@ -614,12 +659,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  max-height: 200px;
+  min-height: 200px;
 }
 
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
-  opacity: 0.85;
+  background: -webkit-gradient(linear, left top, left bottom, from(#581c40), to(#41142f));
+  background: linear-gradient(#581c40, #41142f);
+  opacity: 0.9;
   position: absolute;
   width: 100%;
   height: 0;
@@ -656,11 +704,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.1em;
 }
 
-.proj-txtx span {
+.proj-txtx a {
+  color: white;
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
+  text-decoration: none;
+}
+
+.proj-txtx a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.clique {
+  text-align: center !important;
+  font-size: 14px !important;
+}
+
+.projectCardImg {
+  padding: 15px;
 }
 
 .background-image-right {

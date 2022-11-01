@@ -56,15 +56,7 @@ export const NavBar = () => {
             >
               Habilidades
             </Nav.Link>
-            <Nav.Link
-              href="#services"
-              className={
-                activeLink === "services" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("services")}
-            >
-              Serviços
-            </Nav.Link>
+
             <Nav.Link
               href="#projects"
               className={
@@ -73,6 +65,15 @@ export const NavBar = () => {
               onClick={() => onUpdateActiveLink("projects")}
             >
               Projetos
+            </Nav.Link>
+            <Nav.Link
+              href="#services"
+              className={
+                activeLink === "services" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("services")}
+            >
+              Serviços
             </Nav.Link>
           </Nav>
           <span className="navbar-text">
@@ -91,16 +92,18 @@ export const NavBar = () => {
               >
                 <img src={navIcon1} alt="navicon1" />
               </a>
-              <a href="https://www.github.com/kaikbarreto" rel="noreferrer" target="_blank">
+              <a
+                href="https://www.github.com/kaikbarreto"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <img src={navIconGithub} alt="navicon2" />
               </a>
             </div>
             <a
-              href="https://api.whatsapp.com/send?phone=+5521970117921&text=Olá,%20Kaik!%20Vim%20pelo%20seu%20portfólio!"
-              rel="noreferrer"
-              target="_blank"
+              href="#connect"
             >
-              <button className="vvd" onClick={() => console.log("connect")}>
+              <button className="vvd">
                 <span>Vamos conversar!</span>
               </button>
             </a>

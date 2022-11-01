@@ -6,6 +6,7 @@ import Footer from "./components/Footer"
 import "./App.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import Contact from "./components/Contact"
+import Services from "./components/Services"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
+      <Services />
       <Contact />
       <Footer />
       <a
