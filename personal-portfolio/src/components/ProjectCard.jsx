@@ -5,7 +5,7 @@ const ProjectCard = ({ title, description, imgUrl, projUrl }) => {
     <Col sm={6} md={4}>
       <div className="proj-imgbx">
         <img src={imgUrl} alt="Imagem do projeto" id="projectCardImg" />
-        <div className="proj-txtx">
+        <div className="proj-txtx p-3 pb-3">
           <h4>{title}</h4>
           <a href={projUrl} rel="noreferrer" target="_blank">
             {description}

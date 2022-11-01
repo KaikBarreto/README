@@ -22,6 +22,7 @@ function App() {
         href="https://api.whatsapp.com/send?phone=+5521970117921&text=Olá,%20Kaik!%20Vim%20pelo%20seu%20portfólio!"
         class="float"
         target="_blank"
+        rel="noreferrer"
       >
         <i class="fa fa-whatsapp my-float"></i>
       </a>

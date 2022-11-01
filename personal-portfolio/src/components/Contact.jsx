@@ -12,8 +12,7 @@ const Contact = () => {
   }
 
   const [formDetails, setFormDetails] = useState(formInitialDetails)
-  const [buttonText, setButtonText] = useState("Enviar")
-  const [status, setStatus] = useState({})
+  const [status] = useState({})
 
   const onFormUpdate = (category, value) => {
     setFormDetails({
@@ -30,14 +29,14 @@ const Contact = () => {
             <img src={contactImg} alt="Contate-me" />
           </Col>
           <Col md={6}>
-            <h2>Entre em contato</h2>
-            <form onSubmit={(e) => e.preventDefault()}>
+            <h2>Entre em contato com este jovem rapaz</h2>
+            <form onSubmit={e => e.preventDefault()}>
               <Row>
                 <Col sm={6} className="px-1">
                   <input
                     type="text"
                     value={formDetails.firstName}
-                    placeholder="Seu nome"
+                    placeholder="Seu belo nome"
                     onChange={e => onFormUpdate("firstName", e.target.value)}
                   />
                 </Col>
@@ -45,7 +44,7 @@ const Contact = () => {
                   <textarea
                     row="6"
                     value={formDetails.message}
-                    placeholder="Sua mensagem"
+                    placeholder="Sua calorosa mensagem"
                     onChange={e => onFormUpdate("message", e.target.value)}
                   />
                   <a
