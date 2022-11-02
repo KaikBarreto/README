@@ -147,11 +147,58 @@ p.danger {
   #logoFooter {
     text-align: center;
   }
+  .banner h1 span {
+    font-size: 48px;
+  }
+  #connect h2 {
+    text-align: center;
+  }
+  #connect input {
+    max-width: 50%;
+    margin: 15px auto;
+    display: block;
+  }
+  #connect textarea {
+    display: block;
+    margin: 0 auto;
+    max-width: 85%;
+    text-align: center;
+  }
+  #connect #contactButton {
+    max-width: 85%;
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+  }
+  .react-multiple-carousel__arrow--right {
+    -webkit-transform: translateY(-15px) !important;
+            transform: translateY(-15px) !important;
+  }
+  .react-multiple-carousel__arrow--left {
+    -webkit-transform: translateY(-15px) !important;
+            transform: translateY(-15px) !important;
+  }
+  .float {
+    scale: 0.9;
+    right: 15px;
+    bottom: 15px;
+  }
+  .skill p {
+    font-size: 15px !important;
+    text-align: start;
+  }
+  .clique {
+    margin: 15 auto !important;
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 800px) {
   #pills-tab {
-    gap: 50px;
+    gap: 20px;
+  }
+  .nav-pills {
+    margin: 0;
   }
   #home h1 {
     font-size: 55px !important;
@@ -626,7 +673,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project .nav.nav-pills {
-  width: 72%;
+  width: 100%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: calc(rgb(255 255 255 / 10%));
@@ -634,7 +681,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  width: 70%;
 }
 
 .project .nav.nav-pills .nav-link {
@@ -643,7 +690,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 17px 0;
   color: #fff;
   width: 100%;
-  font-size: 17px;
+  font-size: 16px;
   letter-spacing: 0.8px;
   font-weight: 500;
   position: relative;
@@ -651,6 +698,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
   text-align: center;
   z-index: 0;
+}
+
+.project .nav.nav-pills .nav-link::before {
+  border-radius: 5px !important;
+}
+
+.project .nav.nav-pills .nav-link.active {
+  border-radius: 5px !important;
 }
 
 .project .nav.nav-pills .nav-link::before {

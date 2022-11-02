@@ -5,11 +5,15 @@ import navIcon1 from "../assets/img/nav-icon1.svg"
 import navIconGithub from "../assets/img/nav-iconGitHub.svg"
 import navIcon3 from "../assets/img/nav-icon3.svg"
 
+
+
+
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home")
   const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
+
     const onScroll = () => {
       if (window.scrollY > 50) {
         setScrolled(true)
