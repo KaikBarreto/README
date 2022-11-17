@@ -147,6 +147,9 @@ p.danger {
   #logoFooter {
     text-align: center;
   }
+  #logoImg {
+    width: 150px !important;
+  }
   .banner h1 span {
     font-size: 48px;
   }
@@ -196,6 +199,9 @@ p.danger {
 @media (max-width: 800px) {
   #pills-tab {
     gap: 20px;
+  }
+  #logoImg {
+    width: 200px !important;
   }
   .nav-pills {
     margin: 0;
@@ -296,6 +302,10 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;
+}
+
+#logoImg {
+  width: 100%;
 }
 
 span.navbar-text {
@@ -567,6 +577,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+}
+
+.technologies h4 {
+  margin-top: 36px;
+  font-size: 200%;
+  text-align: center;
+}
+
+.technologies marquee {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 36px;
+}
+
+.technologies marquee img {
+  max-width: 50px;
 }
 
 .skill-bx {

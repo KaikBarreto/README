@@ -1,19 +1,15 @@
 import { useState, useEffect } from "react"
 import { Navbar, Nav, Container } from "react-bootstrap"
-import logo from "../assets/img/logo.svg"
+import logo from "../assets/img/logo.png"
 import navIcon1 from "../assets/img/nav-icon1.svg"
 import navIconGithub from "../assets/img/nav-iconGitHub.svg"
 import navIcon3 from "../assets/img/nav-icon3.svg"
-
-
-
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home")
   const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
-
     const onScroll = () => {
       if (window.scrollY > 50) {
         setScrolled(true)
@@ -35,9 +31,7 @@ export const NavBar = () => {
     <Navbar bg="light" expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <span className="text-uppercase text-bold text-gradient2">
-            Parallax
-          </span>
+          <img src={logo} alt="Parallax Logo" id="logoImg" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>

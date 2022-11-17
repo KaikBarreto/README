@@ -1,10 +1,11 @@
 import { Col, Container, Row } from "react-bootstrap"
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
-import meter1 from "../assets/img/meter1.svg"
 import meter2 from "../assets/img/meter2.svg"
 import meter3 from "../assets/img/meter3.svg"
 import colorSharp from "../assets/img/color-sharp.png"
+
+import logo from "../assets/img/logoPNG.png"
 
 export const Skills = () => {
   const responsive = {
@@ -69,9 +70,72 @@ export const Skills = () => {
                 </div>
               </Carousel>
             </div>
+            <div className="technologies">
+              <h4 className="text-gradient2">Tecnologias mais utilizadas:</h4>
+              <marquee>
+                <img
+                  align="center"
+                  alt="Kaik-HTML"
+                  height="30"
+                  width="40"
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+                />
+                <img
+                  align="center"
+                  alt="Kaik-CSS"
+                  height="30"
+                  width="40"
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+                />
+                <img
+                  align="center"
+                  alt="Kaik-JS"
+                  height="30"
+                  width="40"
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"
+                />
+                <img
+                  align="center"
+                  alt="Kaik-TS"
+                  height="30"
+                  width="40"
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg"
+                />
+                <img
+                  align="center"
+                  alt="Kaik-PYTHON"
+                  height="30"
+                  width="40"
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+                />
+                <img
+                  align="center"
+                  alt="Kaik-PHOTOSHOP"
+                  height="30"
+                  width="40"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"
+                />
+                <img
+                  align="center"
+                  alt="Kaik-Illustrator"
+                  height="30"
+                  width="40"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg"
+                />
+                <img
+                  align="center"
+                  alt="Kaik-Premiere"
+                  height="30"
+                  width="40"
+                  style={{ background: "#fff" }}
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-plain.svg"
+                />
+              </marquee>
+            </div>
           </Col>
         </Row>
       </Container>
+
       <img
         className="background-image-left"
         src={colorSharp}
