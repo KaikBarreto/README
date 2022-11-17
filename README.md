@@ -48,6 +48,7 @@
   
   <div style="display: inline_block;">
     <img align="center" alt="Kaik-PHOTOSHOP" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg">
+    <img align="center" alt="Kaik-ILLUSTRATOR" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg">
   </div>
    
   <!-- ### Video Editing
