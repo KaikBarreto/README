@@ -2,7 +2,10 @@ import { Col, Container, Nav, Row, Tab } from "react-bootstrap"
 
 import studioIdentity from "../assets/img/studioIdentity.png"
 import bmCards from "../assets/img/bmCards.jpg"
-import posts from "../assets/img/posts.png"
+import scCards from "../assets/img/mockupCartão.png"
+import pxCards from "../assets/img/mockupCartãoPX.png"
+
+import socialMedia from "../assets/img/socialMediaBanner.png"
 
 import miniBlog from "../assets/img/miniBlog.png"
 import casaDoEletricista from "../assets/img/casaDoEletricista.png"
@@ -61,7 +64,21 @@ const Projects = () => {
       projUrl: "https://www.instagram.com/studiochaider/",
     },
     {
-      title: "Cartões de visita Barreto Metais",
+      title: "Cartões de Visita Studio Chaider",
+      description:
+        "Cartão de visita com frente e verso, utilizando a paleta de cores e estilo da identidade visual da empresa.",
+      imgUrl: scCards,
+      projUrl: "#",
+    },
+    {
+      title: "Cartões de Visita Barreto Metais",
+      description:
+        "Cartão de visita com frente e verso, utilizando a paleta de cores e estilo da identidade visual da empresa.",
+      imgUrl: pxCards,
+      projUrl: "https://www.instagram.com/parallaxdsgn",
+    },
+    {
+      title: "Cartões de Visita Barreto Metais",
       description:
         "Cartão de visita com frente e verso, utilizando a paleta de cores e estilo da identidade visual da empresa.",
       imgUrl: bmCards,
@@ -70,8 +87,8 @@ const Projects = () => {
     {
       title: "Dezenas de posts para redes sociais",
       description:
-        "Uma das mais, se não a mais, eficaz forma de se posicionar no mundo digital é através das redes sociais, com vídeos e posts criativos. ",
-      imgUrl: posts,
+        "Mais de um ano de experiência produzindo criativos para redes sociais",
+      imgUrl: socialMedia,
       projUrl:
         "https://www.instagram.com/stories/highlights/18233929711180864/",
     },
