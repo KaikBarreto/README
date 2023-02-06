@@ -75,7 +75,7 @@ const Projects = () => {
       description:
         "Cartão de visita com frente e verso, utilizando a paleta de cores e estilo da identidade visual da empresa.",
       imgUrl: pxCards,
-      projUrl: "https://www.instagram.com/parallaxdsgn",
+      projUrl: "https://www.instagram.com/parallax_dsgn",
     },
     {
       title: "Cartões de Visita Barreto Metais",
@@ -104,21 +104,21 @@ const Projects = () => {
               Aqui você pode ver <strong>um pouco do meu trabalho</strong>,
               tanto como programador quanto como designer gráfico.
             </p>
-            <Tab.Container id="projets-tabs" defaultActiveKey="programming">
+            <Tab.Container id="projets-tabs" defaultActiveKey="design">
               <Nav
                 variant="pills"
                 className="nav-pills mb-5 justify-content-center align-items-center"
                 id="pills-tab"
               >
                 <Nav.Item>
-                  <Nav.Link eventKey="programming" className="categoria">
-                    Programação / Sites
-                  </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
                   <Nav.Link eventKey="design" className="categoria">
                     Design Gráfico <br />
                     (digitais e impressos)
+                  </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="programming" className="categoria">
+                    Programação / Sites
                   </Nav.Link>
                 </Nav.Item>
               </Nav>
