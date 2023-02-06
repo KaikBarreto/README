@@ -32,7 +32,7 @@ const Footer = () => {
                 <img src={navIcon3} />
               </a>
             </div>
-            <p>Kaik Barreto &copy; 2022. Todos Os Direitos Reservados</p>
+            <p>Kaik Barreto &copy; 2023. Todos Os Direitos Reservados</p>
           </Col>
         </Row>
       </Container>

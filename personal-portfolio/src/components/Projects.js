@@ -1,11 +1,12 @@
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap"
 
 import studioIdentity from "../assets/img/studioIdentity.png"
-import bmCards from "../assets/img/bmCards.jpg"
 import scCards from "../assets/img/mockupCartão.png"
 import pxCards from "../assets/img/mockupCartãoPX.png"
 
 import socialMedia from "../assets/img/socialMediaBanner.png"
+import Banner1 from "../assets/img/bannerSite1.png"
+import Banner3 from "../assets/img/bannerSite3.png"
 
 import miniBlog from "../assets/img/miniBlog.png"
 import casaDoEletricista from "../assets/img/casaDoEletricista.png"
@@ -52,7 +53,7 @@ const Projects = () => {
         "Uma página profissional, concisa e sofisticada para uma empresa brasileira de reciclagem, situada na Zona Oeste do Rio de Janeiro",
       imgUrl: barretoMetais,
       projUrl: "https://www.barretometais.com",
-    },
+    }
   ]
 
   const designProjects = [
@@ -71,18 +72,11 @@ const Projects = () => {
       projUrl: "#",
     },
     {
-      title: "Cartões de Visita Barreto Metais",
+      title: "Cartões de Visita Parallax Design",
       description:
-        "Cartão de visita com frente e verso, utilizando a paleta de cores e estilo da identidade visual da empresa.",
+        "Cartão de visita com frente e verso, utilizando a paleta de cores e estilo da identidade visual da agência de design Parallax Design.",
       imgUrl: pxCards,
       projUrl: "https://www.instagram.com/parallax_dsgn",
-    },
-    {
-      title: "Cartões de Visita Barreto Metais",
-      description:
-        "Cartão de visita com frente e verso, utilizando a paleta de cores e estilo da identidade visual da empresa.",
-      imgUrl: bmCards,
-      projUrl: "https://www.instagram.com/barretometais",
     },
     {
       title: "Dezenas de posts para redes sociais",
@@ -91,6 +85,20 @@ const Projects = () => {
       imgUrl: socialMedia,
       projUrl:
         "https://www.instagram.com/stories/highlights/18233929711180864/",
+    },
+    {
+      title: "Banner para E-commerce",
+      description:
+        "Um banner minimalista e moderno para um e-commerce de moda masculina",
+      imgUrl: Banner1,
+      projUrl: "#",
+    },
+    {
+      title: "Banner para E-commerce",
+      description:
+        "Um banner minimalista e moderno para um e-commerce de moda masculina",
+      imgUrl: Banner3,
+      projUrl: "#",
     },
   ]
 

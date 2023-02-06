@@ -124,6 +124,14 @@ export const Skills = () => {
                 />
                 <img
                   align="center"
+                  alt="Kaik-AfterEffects"
+                  height="30"
+                  width="40"
+                  style={{ background: "#fff" }}
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-plain.svg"
+                />
+                <img
+                  align="center"
                   alt="Kaik-Premiere"
                   height="30"
                   width="40"
