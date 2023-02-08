@@ -14,7 +14,7 @@ const Footer = () => {
           </Col>
           <Col sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/kaikbarreto" target="_blank" rel="noreferrer">
                 <img src={navIcon1} />
               </a>
               <a
@@ -25,7 +25,7 @@ const Footer = () => {
                 <img src={navIconGithub} />
               </a>
               <a
-                href="https://www.instagram.com/barreto.kaik/"
+                href="https://www.instagram.com/parallax_dsgn/"
                 target="_blank"
                 rel="noreferrer"
               >

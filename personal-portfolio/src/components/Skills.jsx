@@ -5,6 +5,8 @@ import meter2 from "../assets/img/meter2.svg"
 import meter3 from "../assets/img/meter3.svg"
 import colorSharp from "../assets/img/color-sharp.png"
 
+import curriculum from "../assets/pdf/curriculum.pdf"
+
 import logo from "../assets/img/logoPNG.png"
 
 export const Skills = () => {
@@ -71,7 +73,7 @@ export const Skills = () => {
               </Carousel>
             </div>
             <div className="technologies">
-              <h4 className="text-gradient2">Tecnologias mais utilizadas:</h4>
+              <h4 className="text-gradient">Tecnologias mais utilizadas:</h4>
               <marquee>
                 <img
                   align="center"
@@ -139,6 +141,10 @@ export const Skills = () => {
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-plain.svg"
                 />
               </marquee>
+            </div>
+            <div className="curriculum">
+              <h4 className="text-gradient2">Curriculum Vitae:</h4>
+              <a href={curriculum} download="currículoKaikBarreto" id="downloadButton">Download do currículo</a>
             </div>
           </Col>
         </Row>

@@ -1,4 +1,5 @@
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap"
+import YoutubeIFrame from "./YoutubeIFrame.tsx"
 
 import studioIdentity from "../assets/img/studioIdentity.png"
 import scCards from "../assets/img/mockupCartão.png"
@@ -18,6 +19,10 @@ import colorSharp2 from "../assets/img/color-sharp2.png"
 import ProjectCard from "./ProjectCard"
 
 const Projects = () => {
+
+  const videoId = "oA3TkT6f9Vc";
+  const videoTitle = "Projeto Motion Design - Parallax Design";
+
   const programmingProjects = [
     {
       title: "MiniBlog",
@@ -155,6 +160,10 @@ const Projects = () => {
               </Tab.Content>
             </Tab.Container>
           </Col>
+        </Row>
+        <Row>
+        <h2 className="text-gradient" id="videoTitle">{videoTitle}</h2>
+        <YoutubeIFrame videoId={videoId} videoTitle={videoTitle} />
         </Row>
       </Container>
       <img
