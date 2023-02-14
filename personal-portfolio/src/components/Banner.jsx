@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react"
 import { Col, Container, Row } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
+import Caneta from "../assets/img/penIcon.png"
+
 import headerImg from "../assets/img/header-img.svg"
 import fotoKaik from "../assets/img/fotoKaik.jpg"
 
@@ -50,6 +52,9 @@ export const Banner = () => {
 
   return (
     <section className="banner" id="home">
+      {/* caneta início */}
+      <img id="caneta" src={Caneta} alt="ícone azul claro de caneta do photoshop" />
+      {/* caneta fim */}
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
@@ -72,7 +77,7 @@ export const Banner = () => {
                     <span className="wrap text-gradient">{text}</span>
                   </h1>
                   <p>
-                    Sou um <strong>jovem</strong> de 17 anos, nascido no{" "}
+                    Sou um <strong>jovem</strong> brasileiro, nascido no{" "}
                     <strong>Rio de Janeiro - RJ</strong> e{" "}
                     <strong>apaixonado</strong> por tecnologia e inovação. Desde
                     sempre me aventurei em jornadas de aprendizado, e continuo{" "}

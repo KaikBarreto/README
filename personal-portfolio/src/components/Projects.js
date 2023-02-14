@@ -2,12 +2,10 @@ import { Col, Container, Nav, Row, Tab } from "react-bootstrap"
 import YoutubeIFrame from "./YoutubeIFrame.tsx"
 
 import studioIdentity from "../assets/img/studioIdentity.png"
-import scCards from "../assets/img/mockupCartão.png"
 import pxCards from "../assets/img/mockupCartãoPX.png"
 
 import socialMedia from "../assets/img/socialMediaBanner.png"
-import Banner1 from "../assets/img/bannerSite1.png"
-import Banner3 from "../assets/img/bannerSite3.png"
+import SiteBanner from "../assets/img/bannerSite.png"
 
 import miniBlog from "../assets/img/miniBlog.png"
 import casaDoEletricista from "../assets/img/casaDoEletricista.png"
@@ -67,17 +65,10 @@ const Projects = () => {
       description:
         "Uma identidade visual completa, incluindo: Logotipo, padrão, paleta de cores, tipografia, cartão de visita, entre outros elementos gráficos e impressos.",
       imgUrl: studioIdentity,
-      projUrl: "https://www.instagram.com/studiochaider/",
+      projUrl: "https://www.instagram.com/p/CoaHkwZuFiQ/?utm_source=ig_web_copy_link",
     },
     {
-      title: "Cartões de Visita Studio Chaider",
-      description:
-        "Cartão de visita com frente e verso, utilizando a paleta de cores e estilo da identidade visual da empresa.",
-      imgUrl: scCards,
-      projUrl: "#",
-    },
-    {
-      title: "Cartões de Visita Parallax Design",
+      title: "Identidade Visual Parallax Design",
       description:
         "Cartão de visita com frente e verso, utilizando a paleta de cores e estilo da identidade visual da agência de design Parallax Design.",
       imgUrl: pxCards,
@@ -95,16 +86,9 @@ const Projects = () => {
       title: "Banner para E-commerce",
       description:
         "Um banner minimalista e moderno para um e-commerce de moda masculina",
-      imgUrl: Banner1,
-      projUrl: "#",
-    },
-    {
-      title: "Banner para E-commerce",
-      description:
-        "Um banner minimalista e moderno para um e-commerce de moda masculina",
-      imgUrl: Banner3,
-      projUrl: "#",
-    },
+      imgUrl: SiteBanner,
+      projUrl: "https://www.instagram.com/parallax_dsgn",
+    }
   ]
 
   return (
@@ -125,8 +109,7 @@ const Projects = () => {
               >
                 <Nav.Item>
                   <Nav.Link eventKey="design" className="categoria">
-                    Design Gráfico <br />
-                    (digitais e impressos)
+                    Design Gráfico 
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>

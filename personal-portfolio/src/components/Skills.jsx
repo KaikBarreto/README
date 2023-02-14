@@ -105,6 +105,13 @@ export const Skills = () => {
                 />
                 <img
                   align="center"
+                  alt="Kaik-React"
+                  height="30"
+                  width="40"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                />
+                <img
+                  align="center"
                   alt="Kaik-PYTHON"
                   height="30"
                   width="40"

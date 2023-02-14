@@ -471,6 +471,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Banner Css ************/
+#caneta {
+  width: 50px;
+  position: absolute;
+  top: 125px;
+  left: 20px;
+}
+
+@media (max-width: 670px) {
+  #caneta {
+    -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+    right: 20px;
+  }
+}
+
 .banner {
   margin-top: 0;
   padding: 160px 0 100px 0;
@@ -818,9 +833,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .proj-imgbx::before {
   content: "";
-  background: -webkit-gradient(linear, left top, left bottom, from(#581c40), to(#41142f));
-  background: linear-gradient(#581c40, #41142f);
-  opacity: 0.9;
+  background: linear-gradient(145deg, #95ddee, #2e44a5);
+  opacity: 0.8;
   position: absolute;
   width: 100%;
   height: 0;
@@ -852,8 +866,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .proj-txtx h4 {
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 34px;
+  font-weight: 900;
+  text-transform: uppercase;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
