@@ -1,23 +1,27 @@
-import { Col, Container, Nav, Row, Tab } from "react-bootstrap"
-import YoutubeIFrame from "./YoutubeIFrame.tsx"
+import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
+import YoutubeIFrame from "./YoutubeIFrame.tsx";
 
-import studioIdentity from "../assets/img/studioIdentity.png"
-import pxCards from "../assets/img/mockupCartãoPX.png"
+// programming / sites
+import lpVermelhoVertente from "../assets/img/vermelhoVertendeLandingPage.png";
+import mathPlots from "../assets/img/mathPlots.png";
+import miniBlog from "../assets/img/miniBlog.png";
+import casaDoEletricista from "../assets/img/casaDoEletricista.png";
+import barretoMetais from "../assets/img/barretoMetais.png";
 
-import socialMedia from "../assets/img/socialMediaBanner.png"
-import SiteBanner from "../assets/img/bannerSite.png"
+import laptop from "../assets/img/laptop.webp";
 
-import miniBlog from "../assets/img/miniBlog.png"
-import casaDoEletricista from "../assets/img/casaDoEletricista.png"
-import barretoMetais from "../assets/img/barretoMetais.png"
-import mathPlots from "../assets/img/mathPlots.png"
-import laptop from "../assets/img/laptop.webp"
+// design
+import socialMedia from "../assets/img/socialMediaBanner.png";
+import SiteBanner from "../assets/img/bannerSite.png";
+import studioIdentity from "../assets/img/studioIdentity.png";
+import pxCards from "../assets/img/mockupCartãoPX.png";
+import idvVermelhoVertente from "../assets/img/vermelhoVertenteIdentity.png";
 
-import colorSharp2 from "../assets/img/color-sharp2.png"
-import ProjectCard from "./ProjectCard"
+import colorSharp2 from "../assets/img/color-sharp2.png";
+
+import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
-
   const videoId = "oA3TkT6f9Vc";
   const videoTitle = "Projeto Motion Design - Parallax Design";
 
@@ -56,8 +60,15 @@ const Projects = () => {
         "Uma página profissional, concisa e sofisticada para uma empresa brasileira de reciclagem, situada na Zona Oeste do Rio de Janeiro",
       imgUrl: barretoMetais,
       projUrl: "https://www.barretometais.com",
-    }
-  ]
+    },
+    {
+      title: "Landing Page Vermelho Vertente",
+      description:
+        "Uma landing page focada na conversão em vendas de um curso online sobre cura espiritual.",
+      imgUrl: lpVermelhoVertente,
+      projUrl: "https://landingpagevermelhovertente.netlify.app",
+    },
+  ];
 
   const designProjects = [
     {
@@ -65,7 +76,8 @@ const Projects = () => {
       description:
         "Uma identidade visual completa, incluindo: Logotipo, padrão, paleta de cores, tipografia, cartão de visita, entre outros elementos gráficos e impressos.",
       imgUrl: studioIdentity,
-      projUrl: "https://www.instagram.com/p/CoaHkwZuFiQ/?utm_source=ig_web_copy_link",
+      projUrl:
+        "https://www.instagram.com/p/CoaHkwZuFiQ/?utm_source=ig_web_copy_link",
     },
     {
       title: "Identidade Visual Parallax Design",
@@ -88,8 +100,15 @@ const Projects = () => {
         "Um banner minimalista e moderno para um e-commerce de moda masculina",
       imgUrl: SiteBanner,
       projUrl: "https://www.instagram.com/parallax_dsgn",
-    }
-  ]
+    },
+    {
+      title: "Identidade Visual Vermelho Vertente",
+      description:
+        "Uma identidade visual concisa, completa, riquíssima em detalhes e elementos para reforçar a credibilidade e autoridade da marca.",
+      imgUrl: idvVermelhoVertente,
+      projUrl: "https://landingpagevermelhovertente.netlify.app",
+    },
+  ];
 
   return (
     <section className="project" id="projects">
@@ -109,7 +128,7 @@ const Projects = () => {
               >
                 <Nav.Item>
                   <Nav.Link eventKey="design" className="categoria">
-                    Design Gráfico 
+                    Design Gráfico
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
@@ -145,8 +164,10 @@ const Projects = () => {
           </Col>
         </Row>
         <Row>
-        <h2 className="text-gradient" id="videoTitle">{videoTitle}</h2>
-        <YoutubeIFrame videoId={videoId} videoTitle={videoTitle} />
+          <h2 className="text-gradient" id="videoTitle">
+            {videoTitle}
+          </h2>
+          <YoutubeIFrame videoId={videoId} videoTitle={videoTitle} />
         </Row>
       </Container>
       <img
@@ -155,6 +176,6 @@ const Projects = () => {
         alt="color sharp"
       />
     </section>
-  )
-}
-export default Projects
+  );
+};
+export default Projects;
